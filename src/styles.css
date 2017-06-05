@@ -52,6 +52,16 @@ h1 {
   border-radius: 4px 0 0 4px;
 }
 
+#hero-tile {
+  height: 500px;
+  background-size: cover;
+}
+
+#hero-tile img {
+  margin: 10px;
+  height: 100px;
+}
+
 .portland {
   background-image: url("https://www.travelportland.com/wp-content/uploads/2013/04/EVT_Theater_TheaterListings_mebf2778_stock_ViewfindersNW.jpg");
 }
