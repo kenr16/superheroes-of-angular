@@ -20,12 +20,11 @@ const HEROES: Hero[] = [
   selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
-
     <h2>My Heroes</h2>
     <ul class="heroes">
       <li *ngFor="let hero of heroes"
         [class.selected]="hero === selectedHero"
-        (click)="onSelect(hero)">  
+        (click)="onSelect(hero)">
         <span class="badge">{{hero.id}}</span> {{hero.name}}
       </li>
     </ul>
@@ -38,7 +37,7 @@ export class AppComponent  {
   heroes = HEROES;
   selectedHero: Hero;
   team: String = "Magnificent 10"
-  teamLogo: String = "https://s-media-cache-ak0.pinimg.com/originals/97/e6/bc/97e6bc2add6b52b80893c1dd5754f9ad.jpg"
+  teamLogo: String = "http://www.high10media.com/wp-content/uploads/2014/11/high10_logo.png"
 
   onSelect(hero: Hero): void {
     this.selectedHero = hero;

@@ -51,3 +51,19 @@ h1 {
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
 }
+
+.portland {
+  background-image: url("https://www.travelportland.com/wp-content/uploads/2013/04/EVT_Theater_TheaterListings_mebf2778_stock_ViewfindersNW.jpg");
+}
+
+.seattle {
+  background-image: url("http://www.bekinsmovingandstorage.com/wp-content/uploads/2016/03/SeattleCity2.jpg");
+}
+
+.newYork {
+  background-image: url("https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5244714388001_5205235439001-vs.jpg?pubId=5104226627001&videoId=5205235439001");
+}
+
+.sanFrancisco {
+  background-image: url("http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1444253482/DG2015-san-francisco.jpg?itok=MdRJm2Zo");
+}
